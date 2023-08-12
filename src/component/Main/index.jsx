@@ -140,8 +140,8 @@ const HomePage = () => {
       y: 200,
       opacity: 0,
       ease: "none",
-      delay: 2,
-      duration: 2,
+      delay: 1,
+      duration: 1,
       stagger: {
         amount: 1,
       },
@@ -223,11 +223,8 @@ const HomePage = () => {
                     <div class="line-2">
                         <p class="num">/22</p>
                         <button class="loop">
-                            <span>SPRING COLLECTION &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span>SPRING COLLECTION</span>
                         </button>
-                        {/* <button class="loop loop2">
-                            <span>COLLECTION /SHOP&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        </button> */}
                     </div>
                 </div>
                 <div class="right">

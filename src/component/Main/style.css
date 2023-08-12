@@ -60,7 +60,7 @@
     justify-content: center;
   }
   
-  img {
+  .col img {
     min-height: 300px;
     height: auto;
     width: 200px;
