@@ -29,7 +29,7 @@
   }
   
   .section-3 {
-    background-color: #a8775b;
+    background-color: #ad8479;
     color: #875447;
     margin-top: -100vh;
     position: relative;
@@ -50,7 +50,7 @@
     text-transform: uppercase;
     letter-spacing: 0.5em;
     /* color: rgb(60,60,60);; */
-    color: #fff;
+    color: #492622;
   }
   
   .box2 {
@@ -114,7 +114,7 @@
     justify-content: space-between;
     padding: 1rem;
     font-family: "Neue Montreal";
-    color: #fff;
+    color: #492622;
   }
   
   .line-2 {
@@ -123,7 +123,7 @@
     flex-wrap: wrap;
     position: relative;  
     font-family: "Neue Montreal";
-    color: #fff;
+    color: #492622;
   }
   
   .num {
@@ -169,8 +169,8 @@
   
   .animate-text {
     height: 120px;
-    background-color: black;
-    color: #fff;
+    background-color: #ad8479;
+    color: #492622;
     font-size: 100px;
     white-space: nowrap;
     overflow: hidden;
@@ -185,7 +185,7 @@
     width: 100%;
     height: 780px;
     padding: 0.5rem;
-    background-color: black;
+    background-color: #ad8479;
   }
   
   .img-container img {
@@ -210,13 +210,13 @@
     justify-content: center;
     gap: 5rem;
     height: 33.33%;
-    color: #875447;
+    color: #492622;
   }
   
   .row-2 {
-    background-color: #875447;
+    background-color: #492622;
     /* color: black; */
-    color: #a8775b;
+    color: #ad8479;
   }
   
   .row li {
@@ -230,7 +230,8 @@
     justify-content: space-between;
     align-items: center;
     width: 65px;
-    background-color: #fff;
+    background-color: #492622;
+    color: #fff;
     height: 100%;
     padding: 1rem;
     position: fixed;
