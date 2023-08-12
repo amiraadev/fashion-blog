@@ -167,7 +167,7 @@ const HomePage = () => {
     <div className="main-wrapper">
       <section className="section-1">
         <div className="box1">
-          <div className="name">Kove</div>
+          <div className="name">Vogue</div>
         </div>
         <div className="box2">
           <div className="image-gallery">
@@ -203,7 +203,7 @@ const HomePage = () => {
       <section className="section-2">
         <div className="side-bar">
           <i className="fa-solid fa-expand"></i>
-          <div className="brand-name">kove</div>
+          <div className="brand-name">Vogue</div>
           <div className="des">HIGH QUALITY FABRICS. <br />designed & mad <br /> in iceland.<br /></div>
         </div>
         <div class="wrapper">
@@ -211,7 +211,7 @@ const HomePage = () => {
                     <div class="line-1">
                         <p>VORLIF</p>
                         <div class="copy-right">
-                            KOVE 2023&#174 <br></br> DESIGNED TO ENDURE
+                            Vogue 2022 <br></br> DESIGNED TO ENDURE
                         </div>
 
                     </div>
@@ -222,13 +222,12 @@ const HomePage = () => {
 
                     <div class="line-2">
                         <p class="num">/22</p>
-                        <p>SPRING</p>
                         <button class="loop">
-                            <span>COLLECTION /SHOP&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <span>SPRING COLLECTION &nbsp;&nbsp;&nbsp;&nbsp;</span>
                         </button>
-                        <button class="loop loop2">
+                        {/* <button class="loop loop2">
                             <span>COLLECTION /SHOP&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
                 <div class="right">
@@ -245,22 +244,22 @@ const HomePage = () => {
      <section class="section-3">
      <div class="rows">
          <ul class="row row-1">
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
          </ul>
          <ul class="row row-2">
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
          </ul>
          <ul class="row row-3">
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
+             <li>Vogue</li>
          </ul>
      </div>
  </section>
