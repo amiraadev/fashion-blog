@@ -2,7 +2,6 @@
 import React, { useEffect } from 'react';
 import Image from 'next/image';
 import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
   import './style.css'
 
 const LandingPage = () => {
@@ -74,7 +73,7 @@ const LandingPage = () => {
   return (
     <>
      <div className="hero-img">
-       <img  src="/header3.jpg" />
+       <img  src="./header3.jpg" />
      </div>
 
      <div className="container">
@@ -84,7 +83,7 @@ const LandingPage = () => {
             <div className="header">Editorial - 2023</div>
             <div className="sub-header">A new collection of outdoor photography</div>
             <div className="image-wrapper">
-               <img src="/hero.webp"   />
+               <img src="./hero.webp"   />
             </div>
             <div className="info">
                   Fashion is an ever-evolving expression of style, 
@@ -129,13 +128,7 @@ const LandingPage = () => {
         <h1 className="loader-text">Vogue-Magazine</h1>
       </div>
        <div className="revealer"></div>
-       {/* <div className="pre-loader block">
-        <div className="loader-wrapper">
-           <div className="loader">
-            
-           </div>
-        </div>
-       </div> */}
+     
     
     </>
   );

@@ -9,51 +9,51 @@ const HomePage = () => {
   const galleryData = [
     {
       col:'col-1',
-      src :"/img1/col-1_1.jpg",
+      src :"./img1/col-1_1.jpg",
     },
     {
       col:'col-1',
-      src :"/img1/col-1_2.jpg",
+      src :"./img1/col-1_2.jpg",
     },
     {
       col:'col-1',
-      src :"/img1/col-1_3.jpg",
+      src :"./img1/col-1_3.jpg",
     },
     {
       col:'col-1',
-      src :"/img1/col-1_4.jpg",
+      src :"./img1/col-1_4.jpg",
     },
     {
       col:'col-2',
-      src :"/img1/col-2_1.jpg",
+      src :"./img1/col-2_1.jpg",
     },
     {
       col:'col-2',
-      src :"/img1/col-2_2.jpg",
+      src :"./img1/col-2_2.jpg",
     },
     {
       col:'col-2',
-      src :"/img1/col-2_3.jpg",
+      src :"./img1/col-2_3.jpg",
     },
     {
       col:'col-2',
-      src :"/img1/col-2_4.jpg",
+      src :"./img1/col-2_4.jpg",
     },
     {
       col:'col-3',
-      src :"/img1/col-3_1.webp",
+      src :"./img1/col-3_1.webp",
     },
     {
       col:'col-3',
-      src :"/img1/col-3_2.jpg",
+      src :"./img1/col-3_2.jpg",
     },
     {
       col:'col-3',
-      src :"/img1/col-3_3.jpg",
+      src :"./img1/col-3_3.jpg",
     },
     {
       col:'col-3',
-      src :"/img1/col-3_4.webp",
+      src :"./img1/col-3_4.webp",
     },
   ]
   useEffect(() => {
@@ -69,7 +69,7 @@ const HomePage = () => {
         pin: true,
         start: "top top",
         end: "+=4000",
-        markers:true,
+        // markers:true,
       },
     })
     .to(container, {
@@ -223,7 +223,7 @@ const HomePage = () => {
                             </div>
 
                             <div >
-                                <Image src="/img1/img-1.jpg" width={800} height={400} objectFit={"cover"} alt=""/>
+                                <Image src="./img1/img-1.jpg" width={800} height={400} objectFit={"cover"} alt=""/>
                             </div>
 
                             <div class="line-2">
@@ -238,7 +238,7 @@ const HomePage = () => {
                                 <span>COLLECTION /19° W</span>
                             </div>
                             <div class="img-container">
-                                <Image src="/img1/img-2.jpg" width={1200} height={400} objectFit={"cover"} alt=""/>
+                                <Image src="./img1/img-2.jpg" width={1200} height={400} objectFit={"cover"} alt=""/>
                             </div>
                         </div>
                     </div>
