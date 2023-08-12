@@ -22,19 +22,19 @@ const LandingPage = () => {
       opacity: 0,
       display: "none",
       ease: "power3.inOut",
-      delay: 2
+      delay: 1
     });
 
     gsap.from(".revealer", {
       width: "0",
       ease: "power3.inOut",
-      delay: 3
+      delay: 1.5
     });
 
     gsap.to(".revealer", {
       left: "100%",
       ease: "power3.inOut",
-      delay: 4,
+      delay: 2,
       duration: 0.8
     });
 
@@ -42,21 +42,21 @@ const LandingPage = () => {
       opacity: 0,
       display: "none",
       ease: "power3.inOut",
-      delay: 4,
+      delay: 2,
       duration: 0.2
     });
 
     gsap.from(".col-left", {
       left: "-100%",
       ease: "power3.inOut",
-      delay: 4.5
+      delay: 2.25
     });
 
     gsap.from(".col-left .copy > div", {
       x: -40,
       opacity: 0,
       ease: "power3.inOut",
-      delay: 5,
+      delay: 2.5,
       stagger: {
         amount: 0.3
       }
@@ -66,7 +66,7 @@ const LandingPage = () => {
       x: -20,
       opacity: 0,
       ease: "power3.inOut",
-      delay: 5.5
+      delay: 3.75
     });
 
   }, []);
