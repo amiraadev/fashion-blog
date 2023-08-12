@@ -34,7 +34,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    background: #ebe2d5;
+    background: #8a7564;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: flex;
   }
@@ -87,7 +87,7 @@
     text-align: center;
     font-size: 80px;
     font-family: "Dahlia";
-    color: #e2da17;
+    color: #fff;
     text-transform: uppercase;
     border: none;
     padding: 3em 2em 2em 2em;
@@ -99,13 +99,15 @@
 .col-left{
   position: relative;
   left: 0;
-  background: #ebe2d5;
+  background: #d5bdaf;
   border-right: 1px solid rgba(0,0,0,0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 4em 2em 2em 2em;
 }
+
+
 
 .copy{
   position: relative;
@@ -137,9 +139,10 @@
   .image-wrapper {
     width: 300px;
     height: 300px;
-    background: #ebe2d5;
+    background: #d5bdaf;
     margin:2em 0;
   }
+
   .image-wrapper img{
     width: 100%;
     height: 100%;
@@ -197,7 +200,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #000;
+    background: #8a7564;
   }
 
   .loader-text{
@@ -209,14 +212,22 @@
     color: #fff;
   }
 
+  .loader-text .letter {
+    display: inline-block;
+    line-height: 1em;
+
+  }
+
   .revealer{
     position: absolute;
     top:0;
     left:0;
     width:100%;
     height:100vh;
-    background: #988871;
+    background: #875447;
   }
+
+  
 
   .pre-loader {
     /* position: absolute; */

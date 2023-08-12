@@ -74,7 +74,7 @@ const LandingPage = () => {
   return (
     <>
      <div className="hero-img">
-       <img  src="/header1.jpg" />
+       <img  src="/header3.jpg" />
      </div>
 
      <div className="container">
@@ -129,13 +129,13 @@ const LandingPage = () => {
         <h1 className="loader-text">amw-soon</h1>
       </div>
        <div className="revealer"></div>
-       <div className="pre-loader block">
+       {/* <div className="pre-loader block">
         <div className="loader-wrapper">
            <div className="loader">
             
            </div>
         </div>
-       </div>
+       </div> */}
     
     </>
   );
