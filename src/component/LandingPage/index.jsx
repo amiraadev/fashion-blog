@@ -13,12 +13,12 @@ const LandingPage = () => {
 
      <div className="container">
       <div className="cols">
-        <div className="col col-left">
+        <div className="column col-left">
           <div className="copy">
             <div className="header">Editorial - 2023</div>
             <div className="sub-header">A new collection of outdoor photography</div>
-            <div className="img-wrapper">
-               <img src="/header.jpg" width={400} height={700} objectFit='cover'  />
+            <div className="img-wrapper1">
+               <img src="/header1.jpg"   />
             </div>
             <div className="info">
                   Fashion is an ever-evolving expression of style, 

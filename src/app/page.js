@@ -6,8 +6,8 @@ import Main from '@/component/Main'
 export default function Home() {
   return (
     <>
-    {/* <LandingPage /> */}
-    <Main />
+    <LandingPage />
+    {/* <Main /> */}
     </>
   )
 }
