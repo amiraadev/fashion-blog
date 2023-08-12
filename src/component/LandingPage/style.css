@@ -1,32 +1,32 @@
-* {
-    padding: 0;
+ * {
+    /* padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
   }
  
   body{
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    /* width: 100%;
+    overflow: hidden; */
+    height: auto;
   }
 
   .container{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
+    /* position: absolute; */
+     width: 100px; 
+    height: 1100px; 
+    /* overflow: hidden; */
 
   }
 
-  .hero-img{
-    position: absolute;
-    width: 100%;
-    height: 100vh;
+   .hero-img{
+    /* position: absolute;  */
+    width: 1000; 
+    height: 900;
   }
 
-  .hero-img img{
-    width: 100%;
-    height: 100vh;
+ .hero-img img{
+    width: 1700px;
+    height: 900px;
     object-fit: cover;
   }
 
@@ -70,17 +70,19 @@
   }
 
   .cols{
-    width: 100%;
-    display: flex;
+    width: 1200px;
+    /* display: flex; */
   }
 
-  .column{
-    width: 50%;
-    height: 100vh;
+ .column{
+    width: 600px;
+    height: 900px;
   }
 
 .col-right{
     position: relative;
+    top:-1900px;
+    left:400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,11 +95,12 @@
     padding: 3em 2em 2em 2em;
 }
 
-.col-right .header{
+ .col-right .header{
     position: absolute;
 }
 .col-left{
   position: relative;
+  top:-890px;
   left: 0;
   background: #d5bdaf;
   border-right: 1px solid rgba(0,0,0,0.1);
@@ -118,6 +121,7 @@
   width: 60%;
   font-family: "Neue Montreal";
 }
+
 .copy > * {
   position: relative;
 }
@@ -187,7 +191,7 @@
     }
 
   }
-
+/*
   .block {
     display: flex;
     justify-content: center;
@@ -230,7 +234,6 @@
   
 
   .pre-loader {
-    /* position: absolute; */
     position: relative;
     top: 0;
     left:0;
@@ -256,4 +259,4 @@
   height: 100%;
   background: rgb(251,0,255);
   background: linear-gradient(100deg,rgba(251,0,255,1) 0%,rgba(253,29,29,1) 100%);
-}
+} */

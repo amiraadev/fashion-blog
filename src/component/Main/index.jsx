@@ -4,7 +4,7 @@ import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import './style.css'
-
+ import LandingPage from '@/component/LandingPage'
 const HomePage = () => {
   const galleryData = [
     {
@@ -68,7 +68,8 @@ const HomePage = () => {
         scrub: 1,
         pin: true,
         start: "top top",
-        end: "+=3300",
+        end: "+=4000",
+        markers:true,
       },
     })
     .to(container, {
@@ -164,102 +165,108 @@ const HomePage = () => {
 
   return (
     <>
-    <div className="main-wrapper">
-      <section className="section-1">
-        <div className="box1">
-          <div className="name">Vogue</div>
-        </div>
-        <div className="box2">
-          <div className="image-gallery">
-            <div className="col col-1">
-              {
-                galleryData.filter((item) => item.col === "col-1")
-                            .map((item, index) => (
-                              <Image key={index} src={item.src} width={200} height={200} alt="" />
-                            ))
-              }
-            </div>
-            <div className="col col-2">
-             {
-                galleryData.filter((item) => item.col === "col-2")
-                            .map((item, index) => (
-                              <Image key={index} src={item.src} width={200} height={200} alt="" />
-                            ))
-              }
-            </div>
-            <div className="col col-3">
-              {
-                galleryData.filter((item) => item.col === "col-3")
-                            .map((item, index) => (
-                              <Image key={index} src={item.src} width={200} height={200} alt="" />
-                            ))
-              }
-            </div>
-          </div>
-        </div>
-      </section>
+    <div className='flex flex-col gap-16'>
+           <section style={{marginBottom:"300px"}}>
+           <LandingPage/>
+           </section>
+
+            <div className="main-wrapper bg-red-400">
+              <section className="section-1">
+                <div className="box1">
+                  <div className="name">Vogue</div>
+                </div>
+                <div className="box2">
+                  <div className="image-gallery">
+                    <div className="col col-1">
+                      {
+                        galleryData.filter((item) => item.col === "col-1")
+                                    .map((item, index) => (
+                                      <Image key={index} src={item.src} width={200} height={200} alt="" />
+                                    ))
+                      }
+                    </div>
+                    <div className="col col-2">
+                    {
+                        galleryData.filter((item) => item.col === "col-2")
+                                    .map((item, index) => (
+                                      <Image key={index} src={item.src} width={200} height={200} alt="" />
+                                    ))
+                      }
+                    </div>
+                    <div className="col col-3">
+                      {
+                        galleryData.filter((item) => item.col === "col-3")
+                                    .map((item, index) => (
+                                      <Image key={index} src={item.src} width={200} height={200} alt="" />
+                                    ))
+                      }
+                    </div>
+                  </div>
+                </div>
+              </section>
 
 
-      <section className="section-2">
-        <div className="side-bar">
-          <i className="fa-solid fa-expand"></i>
-          <div className="brand-name">Vogue</div>
-          <div className="des">HIGH QUALITY FABRICS. <br />designed & mad <br /> in iceland.<br /></div>
-        </div>
-        <div class="wrapper">
-                <div class="left">
-                    <div class="line-1">
-                        <p>VORLIF</p>
-                        <div class="copy-right">
-                            Vogue 2022 <br></br> DESIGNED TO ENDURE
+              <section className="section-2">
+                <div className="side-bar">
+                  <i className="fa-solid fa-expand"></i>
+                  <div className="brand-name">Vogue</div>
+                  <div className="des">HIGH QUALITY FABRICS. <br />designed & mad <br /> in iceland.<br /></div>
+                </div>
+                <div class="wrapper">
+                        <div class="left">
+                            <div class="line-1">
+                                <p>VORLIF</p>
+                                <div class="copy-right">
+                                    Vogue 2022 <br></br> DESIGNED TO ENDURE
+                                </div>
+
+                            </div>
+
+                            <div class="image-wrapper">
+                                <Image src="/img/img-1.jpg" width={800} height={400} objectFit={"cover"} alt=""/>
+                            </div>
+
+                            <div class="line-2">
+                                <p class="num">/22</p>
+                                <button class="loop">
+                                    <span>SPRING COLLECTION</span>
+                                </button>
+                            </div>
                         </div>
-
+                        <div class="right">
+                            <div class="animate-text">
+                                <span>COLLECTION /19° W</span>
+                            </div>
+                            <div class="img-container">
+                                <Image src="/img/im2.jpg" width={1200} height={400} objectFit={"cover"} alt=""/>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="image-wrapper">
-                        <Image src="/img/img-1.jpg" width={800} height={400} objectFit={"cover"} alt=""/>
-                    </div>
-
-                    <div class="line-2">
-                        <p class="num">/22</p>
-                        <button class="loop">
-                            <span>SPRING COLLECTION</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="animate-text">
-                        <span>COLLECTION /19° W</span>
-                    </div>
-                    <div class="img-container">
-                        <Image src="/img/im2.jpg" width={1200} height={400} objectFit={"cover"} alt=""/>
-                    </div>
-                </div>
+              </section>
             </div>
-      </section>
+            {/* <section class="section-3">
+            <div class="rows">
+                <ul class="row row-1">
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                </ul>
+                <ul class="row row-2">
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                </ul>
+                <ul class="row row-3">
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                    <li>Vogue</li>
+                </ul>
+            </div>
+        </section> */}
     </div>
-     <section class="section-3">
-     <div class="rows">
-         <ul class="row row-1">
-             <li>Vogue</li>
-             <li>Vogue</li>
-             <li>Vogue</li>
-             <li>Vogue</li>
-         </ul>
-         <ul class="row row-2">
-             <li>Vogue</li>
-             <li>Vogue</li>
-             <li>Vogue</li>
-             <li>Vogue</li>
-         </ul>
-         <ul class="row row-3">
-             <li>Vogue</li>
-             <li>Vogue</li>
-             <li>Vogue</li>
-             <li>Vogue</li>
-         </ul>
-     </div>
- </section>
  </>
   );
 };

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Image from 'next/image';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
- import './style.css'
+  import './style.css'
 
 const LandingPage = () => {
   useEffect(() => {
