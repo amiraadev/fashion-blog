@@ -217,7 +217,7 @@ const HomePage = () => {
                             <div class="line-1">
                                 <p>VORLIF</p>
                                 <div class="copy-right">
-                                    Vogue 2022 <br></br> DESIGNED TO ENDURE
+                                    Vogue 2023 <br></br> DESIGNED TO ENDURE
                                 </div>
 
                             </div>

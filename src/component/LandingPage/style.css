@@ -1,26 +1,17 @@
- * {
-    /* padding: 0;
-    margin: 0;
-    box-sizing: border-box; */
-  }
+
  
   body{
-    /* width: 100%;
-    overflow: hidden; */
+   
     height: auto;
     background-color: #875447;
   }
 
   .container{
-    /* position: absolute; */
      width: 100px; 
-    height: 1100px; 
-    /* overflow: hidden; */
-
+     height: 1100px; 
   }
 
    .hero-img{
-    /* position: absolute;  */
     width: 1000; 
     height: 900;
   }
@@ -73,7 +64,6 @@
   .cols{
     width: 1200px;
     background-color: #d5bdaf;
-    /* display: flex; */
   }
 
  .column{
@@ -234,31 +224,3 @@
   }
 
   
-/*
-  .pre-loader {
-    position: relative;
-    top: 0;
-    left:0;
-    background: #fff;
-
-  }
-
-.loader-wrapper{
-  position: relative;
-  width: 10px;
-  height: 140px;
-  background: rgb(240,240,240);
-  border-radius: 4px;
-  overflow: hidden;
-  transform: rotate(45deg);
-
-}
-
-.loader{
-  position: absolute;
-  top:0;
-  width: 100%;
-  height: 100%;
-  background: rgb(251,0,255);
-  background: linear-gradient(100deg,rgba(251,0,255,1) 0%,rgba(253,29,29,1) 100%);
-} */
