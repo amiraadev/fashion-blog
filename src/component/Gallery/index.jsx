@@ -242,28 +242,7 @@ const Gallery = () => {
             </div>
       </section>
     </div>
-     <section class="section-3">
-     <div class="rows">
-         <ul class="row row-1">
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-         </ul>
-         <ul class="row row-2">
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-         </ul>
-         <ul class="row row-3">
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-             <li>kove</li>
-         </ul>
-     </div>
- </section>
+    
  </>
   );
 };
