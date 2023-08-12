@@ -170,7 +170,7 @@ const HomePage = () => {
            <LandingPage/>
            </section>
 
-            <div className="main-wrapper bg-red-400">
+            <div className="main-wrapper">
               <section className="section-1">
                 <div className="box1">
                   <div className="name">Vogue</div>
@@ -244,7 +244,7 @@ const HomePage = () => {
                     </div>
               </section>
             </div>
-            {/* <section class="section-3">
+            <section class="section-3">
             <div class="rows">
                 <ul class="row row-1">
                     <li>Vogue</li>
@@ -265,7 +265,7 @@ const HomePage = () => {
                     <li>Vogue</li>
                 </ul>
             </div>
-        </section> */}
+        </section>
     </div>
  </>
   );

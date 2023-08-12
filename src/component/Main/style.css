@@ -25,10 +25,12 @@
   
   .main-wrapper {
     display: flex;
+    background-color: #d5bdaf;
   }
   
   .section-3 {
-    background-color: black;
+    background-color: #a8775b;
+    color: #875447;
     margin-top: -100vh;
     position: relative;
     overflow: hidden;
@@ -41,7 +43,14 @@
     justify-content: center;
   }
   .name {
-    font-size: 150px;
+    /* font-size: 150px; */
+    font-family: "Neue Montreal";
+    font-size: 100px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    /* color: rgb(60,60,60);; */
+    color: #fff;
   }
   
   .box2 {
@@ -104,13 +113,17 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    font-family: "Neue Montreal";
+    color: #fff;
   }
   
   .line-2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: relative;
+    position: relative;  
+    font-family: "Neue Montreal";
+    color: #fff;
   }
   
   .num {
@@ -192,16 +205,18 @@
   .row {
     list-style: none;
     display: flex;
+    /* background-color: #a8775b; */
     align-items: center;
     justify-content: center;
     gap: 5rem;
     height: 33.33%;
-    color: #fff;
+    color: #875447;
   }
   
   .row-2 {
-    background-color: #fff;
-    color: black;
+    background-color: #875447;
+    /* color: black; */
+    color: #a8775b;
   }
   
   .row li {
