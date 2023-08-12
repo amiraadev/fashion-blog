@@ -222,7 +222,7 @@ const HomePage = () => {
 
                             </div>
 
-                            <div class="image-wrapper">
+                            <div >
                                 <Image src="/img/img-1.jpg" width={800} height={400} objectFit={"cover"} alt=""/>
                             </div>
 
