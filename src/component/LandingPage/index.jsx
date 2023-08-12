@@ -1,14 +1,80 @@
 "use client"
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-// import './style.css'
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+ import './style.css'
 
 const LandingPage = () => {
+  useEffect(() => {
+    gsap.from(".loader-wrapper", {
+      scale: 0.8,
+      ease: "power1.inOut"
+    });
+
+    gsap.from(".loader", {
+      top: "100%",
+      ease: "power3.inOut"
+    });
+
+    gsap.to(".pre-loader", {
+      scale: 1.5,
+      opacity: 0,
+      display: "none",
+      ease: "power3.inOut",
+      delay: 2
+    });
+
+    gsap.from(".revealer", {
+      width: "0",
+      ease: "power3.inOut",
+      delay: 3
+    });
+
+    gsap.to(".revealer", {
+      left: "100%",
+      ease: "power3.inOut",
+      delay: 4,
+      duration: 0.8
+    });
+
+    gsap.to(".loader-text-wrapper", {
+      opacity: 0,
+      display: "none",
+      ease: "power3.inOut",
+      delay: 4,
+      duration: 0.2
+    });
+
+    gsap.from(".col-left", {
+      left: "-100%",
+      ease: "power3.inOut",
+      delay: 4.5
+    });
+
+    gsap.from(".col-left .copy > div", {
+      x: -40,
+      opacity: 0,
+      ease: "power3.inOut",
+      delay: 5,
+      stagger: {
+        amount: 0.3
+      }
+    });
+
+    gsap.from(".col-right .header", {
+      x: -20,
+      opacity: 0,
+      ease: "power3.inOut",
+      delay: 5.5
+    });
+
+  }, []);
   
   return (
     <>
      <div className="hero-img">
-       <img  src="/hero.webp" />
+       <img  src="/header1.jpg" />
      </div>
 
      <div className="container">
@@ -17,8 +83,8 @@ const LandingPage = () => {
           <div className="copy">
             <div className="header">Editorial - 2023</div>
             <div className="sub-header">A new collection of outdoor photography</div>
-            <div className="img-wrapper1">
-               <img src="/header1.jpg"   />
+            <div className="image-wrapper">
+               <img src="/hero.webp"   />
             </div>
             <div className="info">
                   Fashion is an ever-evolving expression of style, 
@@ -59,9 +125,9 @@ const LandingPage = () => {
         </div>
        </nav>
      </div>
-     <div className="loader-text block">
+      <div className="loader-text-wrapper block">
         <h1 className="loader-text">amw-soon</h1>
-       </div>
+      </div>
        <div className="revealer"></div>
        <div className="pre-loader block">
         <div className="loader-wrapper">
