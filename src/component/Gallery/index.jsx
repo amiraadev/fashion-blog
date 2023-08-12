@@ -5,7 +5,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import Image from 'next/image';
 import './style.css'
 
-const HomePage = () => {
+const Gallery = () => {
   const galleryData = [
     {
       col:'col-1',
@@ -163,6 +163,7 @@ const HomePage = () => {
   }, []);
 
   return (
+    <>
     <div className="main-wrapper">
       <section className="section-1">
         <div className="box1">
@@ -210,7 +211,7 @@ const HomePage = () => {
                     <div class="line-1">
                         <p>VORLIF</p>
                         <div class="copy-right">
-                            KOVE 2023&#174 <br></br> DESIGNED TO ENDURE
+                            KOVE 2022&#174 <br></br> DESIGNED TO ENDURE
                         </div>
 
                     </div>
@@ -235,13 +236,36 @@ const HomePage = () => {
                         <span>COLLECTION /19° W</span>
                     </div>
                     <div class="img-container">
-                        <Image src="/img/im2.jpg" width={800} height={400} objectFit={"cover"} alt=""/>
+                        <Image src="/img/im2.jpg" width={1200} height={400} objectFit={"cover"} alt=""/>
                     </div>
                 </div>
             </div>
       </section>
     </div>
+     <section class="section-3">
+     <div class="rows">
+         <ul class="row row-1">
+             <li>kove</li>
+             <li>kove</li>
+             <li>kove</li>
+             <li>kove</li>
+         </ul>
+         <ul class="row row-2">
+             <li>kove</li>
+             <li>kove</li>
+             <li>kove</li>
+             <li>kove</li>
+         </ul>
+         <ul class="row row-3">
+             <li>kove</li>
+             <li>kove</li>
+             <li>kove</li>
+             <li>kove</li>
+         </ul>
+     </div>
+ </section>
+ </>
   );
 };
 
-export default HomePage;
+export default Gallery;
